@@ -28,6 +28,7 @@ public class HelloController {
     map.put("hello", "<h1>你好</h1>");
     map.put("gg", "22");
     map.put("users", Arrays.asList("zhangsan", "lisi", "wangwu"));
+    System.out.println("创建分支");
     return "success";
   }
 
